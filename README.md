@@ -1,56 +1,39 @@
-# FeedGuard 🛡️
+# FeedGuard
 
-<p align="center">
-  <img src="icon128.png" alt="FeedGuard" width="96" />
-</p>
+**Make your video feed work for you, not against you.**
 
-<p align="center">
-  <strong>User-controlled filtering for YouTube feeds.</strong><br>
-  Block Shorts, AI slop, clickbait, and brainrot — on your terms.
-</p>
+FeedGuard is a free Chrome extension that lets you filter your YouTube feed by blocking Shorts, AI slop, clickbait, channels, and keywords — all locally, with no account, no server, and no data collection.
 
-<p align="center">
-  <a href="https://jadenbchu123-dev.github.io/FeedGuard/">🌐 Live Site</a> &nbsp;·&nbsp;
-  <a href="https://jadenbchu123-dev.github.io/FeedGuard/">Chrome Web Store (coming soon)</a>
-</p>
-
----
-
-## What is FeedGuard?
-
-FeedGuard is a Chrome extension that puts you back in control of your YouTube feed. Instead of letting the algorithm decide what you watch, you set the rules — and FeedGuard enforces them silently in the background.
-
-Built with vanilla JavaScript and Chrome Manifest V3. No backend. No account. No data ever leaves your browser.
+[![Install on Chrome](https://img.shields.io/badge/Chrome%20Web%20Store-Install%20Free-blue?logo=googlechrome)](https://chromewebstore.google.com/detail/feedguard/kocjmhldiapnplogobjiffoibjfcgbdg)
 
 ## Features
 
-- 🚫 **Hide Shorts** — removes Shorts from every surface: feed, search, sidebar
-- 🎮 **Hide Playables** — removes the YouTube games shelf
-- 🤖 **AI slop preset** — filters AI-generated, faceless, and text-to-speech content
-- 🧠 **Brainrot preset** — filters skibidi, sigma, gyatt, and similar
-- 🎣 **Clickbait preset** — filters "you won't believe", "gone wrong", "exposed", and more
-- 📺 **Channel blocking** — block any channel by name
-- 🔑 **Keyword filtering** — block any title keyword or phrase
-- 👁️ **Min view count** — hide videos below a threshold you set
-- 📋 **Hidden log** — see exactly what was filtered and why, with one-click allow controls
-- 💾 **Export / Import** — back up and restore your settings across devices
+- **Hide Shorts** — remove Shorts from your feed, search, and everywhere else
+- **Block channels** — maintain a personal blocklist stored entirely in your browser
+- **Block keywords** — filter videos by any keyword or title pattern
+- **AI slop presets** — one-click filters for AI slop, brainrot, and clickbait
+- **Minimum view count filter** — hide videos that haven't proven themselves
+- **Hide Playables shelf** — remove the YouTube games shelf from your feed
+- **Hidden content log** — see exactly what was filtered and allow items back with one click
+- **Export / import settings** — back up or transfer your configuration as JSON
+
+## Install
+
+**Recommended:** [Add FeedGuard from the Chrome Web Store](https://chromewebstore.google.com/detail/feedguard/kocjmhldiapnplogobjiffoibjfcgbdg)
+
+For developer setup, see the [extension README](extension/README.md).
 
 ## Privacy
 
-🔒 Everything runs locally. Your blocklist lives in your browser and never leaves it. No server, no analytics, no account required.
+All settings and blocklists are stored locally in your browser via `chrome.storage.local`. No data is ever sent to a server. No account required. No analytics.
 
-## Status
+## Roadmap
 
-⏳ Submitted to the Chrome Web Store — pending review. Install link coming soon.
+- Community blocklists
+- Device sync
+- Focus schedules
+- Mobile support
 
-## Tech Stack
+## License
 
-- Vanilla JavaScript (no frameworks)
-- Chrome Manifest V3
-- `chrome.storage` API for local settings persistence
-
----
-
-<p align="center">
-  Built by <a href="https://github.com/jadenbchu123-dev">Jaden Chu</a>
-</p>
+MIT
