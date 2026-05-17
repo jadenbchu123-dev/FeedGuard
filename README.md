@@ -19,9 +19,7 @@ FeedGuard is a free Chrome extension that lets you filter your YouTube feed by b
 
 ## Install
 
-**Recommended:** [Add FeedGuard from the Chrome Web Store](https://chromewebstore.google.com/detail/feedguard/kocjmhldiapnplogobjiffoibjfcgbdg)
-
-For developer setup, see the [extension README](extension/README.md).
+[Add FeedGuard from the Chrome Web Store](https://chromewebstore.google.com/detail/feedguard/kocjmhldiapnplogobjiffoibjfcgbdg) — free, takes 10 seconds.
 
 ## Privacy
 
